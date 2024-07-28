@@ -1,0 +1,35 @@
+{
+  "name": "pcat",
+  "version": "1.0.0",
+  "description": "PCAT Photo App",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muhamedyildiriim/PCAT.git"
+  },
+  "keywords": [
+    "photo",
+    "app",
+    "camera"
+  ],
+  "author": "Muhammed YILDIRIM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muhamedyildiriim/PCAT/issues"
+  },
+  "homepage": "https://github.com/muhamedyildiriim/PCAT#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.3",
+    "prettier": "3.3.2"
+  },
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-fileupload": "^1.5.0",
+    "method-override": "^3.0.0",
+    "mongoose": "^8.4.3"
+  }
+}
